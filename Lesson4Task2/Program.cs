@@ -6,18 +6,15 @@ namespace Lesson4Task2
     class Program
     {
 
-        
+
         static void Main(string[] args)
         {
-
             Console.InputEncoding = System.Text.Encoding.UTF8;
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.Title = "Calculator";
 
-
             Random rnd = new Random();
             bool isOk = true;
-
 
             while (isOk)
             {
@@ -36,7 +33,6 @@ namespace Lesson4Task2
                             Console.WriteLine("Im counting");
                             for (int i = 0; i < 3; i++)
                             {
-                                
                                 Console.Write(".");
                                 Thread.Sleep(1000);
                             }
@@ -49,7 +45,6 @@ namespace Lesson4Task2
                             Console.WriteLine("Im counting");
                             for (int i = 0; i < 3; i++)
                             {
-                                
                                 Console.Write(".");
                                 Thread.Sleep(1000);
                             }
@@ -62,7 +57,6 @@ namespace Lesson4Task2
                             Console.WriteLine("Im counting");
                             for (int i = 0; i < 3; i++)
                             {
-                                
                                 Console.Write(".");
                                 Thread.Sleep(1000);
                             }
@@ -75,7 +69,7 @@ namespace Lesson4Task2
                             Console.WriteLine("Im counting");
                             for (int i = 0; i < 3; i++)
                             {
-                                
+
                                 Console.Write(".");
                                 Thread.Sleep(1000);
                             }
